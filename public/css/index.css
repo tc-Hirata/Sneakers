@@ -30,3 +30,15 @@ li {
     text-align: center;
 }
 
+/*
+フェード表示させる要素に使用するためのクラス
+*/
+.fadein {
+    opacity : 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}
+
+#bg-video {
+    width: 100%;
+}

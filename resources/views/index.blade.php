@@ -4,7 +4,10 @@
 <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 <link rel="stylesheet" href="{{ asset('/css/index.css') }}">
 <link rel="stylesheet" href="{{ asset('/css/header.css') }}">
+<link rel="stylesheet" href="{{ asset('/css/slick.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script src="{{ asset('/js/main.js') }}"></script>
 </head>
 <body>
@@ -46,5 +49,33 @@
      </div>
      <div id="mask"></div>
  </header>
+<main id="main">
+    <div id="video">
+        <video id="bg-video" src="{{ asset('video/video.mp4') }}" loop autoplay muted playsinline></video>
+    </div>
+    <section id="pickup">
+        <h2 class="sec-title">PICK UP</h2>
+            <ul class="slick-area">
+                <li><img src="{{ asset('/img/pickup1.jpg') }}"></li>
+                <li><img src="{{ asset('/img/pickup2.jpg') }}"></li>
+                <li><img src="{{ asset('/img/pickup3.jpg') }}"></li>
+                <li><img src="{{ asset('/img/pickup4.jpg') }}"></li>
+                <li><img src="{{ asset('/img/pickup5.jpg') }}"></li>
+                <li><img src="{{ asset('/img/pickup6.jpg') }}"></li>
+                <li><img src="{{ asset('/img/pickup7.jpg') }}"></li>
+                <li><img src="{{ asset('/img/pickup8.jpg') }}"></li>
+                <li><img src="{{ asset('/img/pickup9.jpg') }}"></li>
+            </ul>
+    </section>
+    <section id="feature">
+        <h2 class="sec-title">FEATURE</h2>
+        <div class="grid">
+            <div class="item">
+
+            </div>
+        </div>
+    </section>
+</main>
+
 </body>
 </html>
