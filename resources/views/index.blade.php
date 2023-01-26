@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja" >
 <head>
+<meta charset="UTF-8">
+<title>Sneakers</title>
 <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 <link rel="stylesheet" href="{{ asset('/css/index.css') }}">
 <link rel="stylesheet" href="{{ asset('/css/header.css') }}">
-<link rel="stylesheet" href="{{ asset('/css/slick.css') }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
@@ -71,11 +72,133 @@
         <h2 class="sec-title">FEATURE</h2>
         <div class="grid">
             <div class="item">
-
+                <img class="fadein" src="{{ asset('/img/feature1.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fadein" src="{{ asset('/img/feature2.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fadein" src="{{ asset('/img/feature3.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fadein" src="{{ asset('/img/feature4.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fadein" src="{{ asset('/img/feature5.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fadein" src="{{ asset('/img/feature6.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fadein" src="{{ asset('/img/feature7.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fadein" src="{{ asset('/img/feature8.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fadein" src="{{ asset('/img/feature9.jpg') }}">
+                <div class="item-content">
+                    <p class="item-cat">category</p>
+                    <p class="item-text">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+                    <p class="item-date">XXXX.XX.XX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="sec-title">CONTACT</h2>
+        <div class="content">
+            <div class="contact-info">
+                <p>テキストテキストテキスト</p>
+                <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+            </div>
+            <div class="contact-form">
+                <form action="#">
+                    <dl>
+                        <dt><label for="name">Name:</label></dt>
+                        <dd><input type="text" id="name" name="your-name"></dd>
+                        <dt><label for="email">Mail:</label></dt>
+                        <dd><input type="email" id="email" name="your-email"></dd>
+                        <dt><label for="message">Message:</label></dt>
+                        <dd><textarea id="message" name="your-message"></textarea></dd>
+                    </dl>
+                    <div class="button">
+                        <input type="submit" value="SEND">
+                    </div>
+                </form>
             </div>
         </div>
     </section>
 </main>
-
+<footer id="footer">
+    <p>&copy; Sneakers</p>
+</footer>
 </body>
 </html>

@@ -18,7 +18,7 @@ $(function(){
     });
 
     // リンクをクリックした時にメニューを閉じる
-    $('#navi a').on('click', function() {
+    $('#nav a').on('click', function() {
         $('#header').removeClass('open');
     });
 
